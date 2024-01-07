@@ -4,8 +4,8 @@
   - name: Create new databases with names 'foo' and 'bar'
     community.mysql.mysql_db:
       name:
-      - foo
-      - bar
+      - gojo
+      - zoro
       state: present
       login_unix_socket: /run/mysqld/mysqld.sock
 
