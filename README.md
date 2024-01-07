@@ -2,11 +2,11 @@ The playbook is designed to perform MySQL database-related tasks. In the first p
 
 ## you  need to ensure that the MySQL-server is up in the 2 servers
 ## To install MySQL, run the following command from a terminal prompt:
-´´´
-sudo apt install mysql-server´´´
+```
+sudo apt install mysql-server```
 ## Once the installation is complete, the MySQL server should be started automatically. You can quickly check its current status via systemd:
-´´´
-sudo service mysql status´´´
+```
+sudo service mysql status```
 # you need to have ansible in the one of the servers or an other server ( we have ansible in server1 in our case)
 
 # Installing Ansible
