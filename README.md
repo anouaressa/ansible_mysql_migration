@@ -1,4 +1,4 @@
-The playbook is designed to perform MySQL database-related tasks. In the first play, it creates databases, performs a MySQL dump, and copies the dump file locally. In the second play, it copies the dump file to another server (server2), changes to a specific directory on that server, and imports the database dump into MySQL. The playbook utilizes Ansible modules for MySQL database management.
+The playbook is designed to perform MySQL database-migration. In the first play, it creates databases, performs a MySQL dump, and copies the dump file locally. In the second play, it copies the dump file to another server (server2), and imports the database dump into MySQL. The playbook utilizes Ansible modules for MySQL database management.
 
 ## you  need to ensure that the MySQL-server is up in the 2 servers
 ## To install MySQL, run the following command from a terminal prompt:
