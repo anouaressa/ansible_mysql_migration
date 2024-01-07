@@ -1,0 +1,5 @@
+[server1]
+server1 ansible_host=172.16.2.60 ansible_user=root
+
+[server2]
+server2 ansible_host=172.16.2.61 ansible_user=vagrant
