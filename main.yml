@@ -17,10 +17,6 @@
       master_data: 1
       login_unix_socket: /run/mysqld/mysqld.sock
 
-  - name: Copy database dump file
-    ansible.builtin.copy:
-      src: /tmp/dump.sql
-      dest: /tmp
 
 - hosts: server2
   become: true
