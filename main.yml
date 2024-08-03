@@ -1,7 +1,7 @@
 - hosts: localhost
   become: true
   tasks:
-  - name: Create new databases with names 'foo' and 'bar'
+  - name: Create new databases with names 'gojo' and 'zoro'
     community.mysql.mysql_db:
       name:
       - gojo
@@ -9,7 +9,7 @@
       state: present
       login_unix_socket: /run/mysqld/mysqld.sock
 
-  - name: Dump all databases to hostname.sql including master data
+  - name: Dump all databases to dump.sql 
     community.mysql.mysql_db:
       state: dump
       name: all
